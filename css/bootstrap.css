@@ -4959,12 +4959,12 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
+  color: white;
   background-color: #55B9ED;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: white;
 }
 .jumbotron p {
   margin-bottom: 15px;
