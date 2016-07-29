@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=c54755a171ffcce3a2d351d2fba14ad4)
- * Config saved to config.json and https://gist.github.com/c54755a171ffcce3a2d351d2fba14ad4
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=ac8cc93068582336a829b1d0a14ae515)
+ * Config saved to config.json and https://gist.github.com/ac8cc93068582336a829b1d0a14ae515
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -1088,7 +1088,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -2560,7 +2560,7 @@ output {
   font-size: 14px;
   line-height: 1.42857143;
   color: #55b9ed;
-  background-color: #777777;
+  background-color: #eeeeee;
   background-image: none;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -2577,14 +2577,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #999999;
+  color: #55b9ed;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #999999;
+  color: #55b9ed;
 }
 .form-control::-webkit-input-placeholder {
-  color: #999999;
+  color: #55b9ed;
 }
 .form-control::-ms-expand {
   border: 0;
@@ -4499,8 +4499,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #55b9ed;
-  border-color: #37adea;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
   color: #777777;
@@ -4525,7 +4525,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
-  background-color: #37adea;
+  background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4545,12 +4545,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #37adea;
+  border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #37adea;
+  background-color: #e7e7e7;
   color: #555555;
 }
 @media (max-width: 767px) {
@@ -4566,7 +4566,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
-    background-color: #37adea;
+    background-color: #e7e7e7;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4965,12 +4965,12 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
+  color: #ffffff;
   background-color: #55b9ed;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #ffffff;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -5996,7 +5996,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6114,7 +6114,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
