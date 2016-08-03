@@ -1,3 +1,24 @@
+/* Sticky footer
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 200px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+  background-color: #55b9ed;
+}
+
+/* Jumbotron
+-------------------------------------------------- */
 .jumbotron-heading {
   font-size: 50px;
 }
