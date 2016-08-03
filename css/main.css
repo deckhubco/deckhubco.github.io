@@ -1,21 +1,24 @@
-/* HERO IMAGE - HEADER */
-
-/* container 100& width background */
-.hero-image-container {
-  background:url(img/hardwood.jpg) repeat-x;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
 }
 
-/* overriding bootstrap padding and margins */
-.container-hero {padding:0;} */
-.row-hero {margin:0;} */
+.jumbotron-heading {
+  font-size: 50px;
+}
 
-/* Hero-image area */
-.hero-image {
-  width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-  color: transparent;
-  background-size: 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+@media (min-width: 992px) {
+  .jumbotron-heading {
+    margin-top: 120px;
+  }
+}
+
+/* Thin out the marketing headings */
+.jumbotron-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
 }
