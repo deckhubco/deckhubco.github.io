@@ -27,8 +27,9 @@ p {
 
 .beta {
   background-color: #fff;
-  color: #55b9ed;
   padding: 25px 25px;
+  color: #55b9ed;
+  text-align: center;
 }
 
 .footer {
