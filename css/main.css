@@ -45,19 +45,19 @@ p {
   text-align: center;
 }
 
+.team {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 100px;
-  background-color: #55b9ed;
-  color: #fff;
+  background-color: #fff;
   padding: 20px 0;
-}
-
-.footer a {
-  color: #fff;
 }
 
 .footer ul {
@@ -93,7 +93,11 @@ p {
   text-align: center;
 }
 .marketing h2 {
+  text-align: center;
   font-weight: normal;
+  color: #fff;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
