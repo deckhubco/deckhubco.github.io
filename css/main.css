@@ -56,12 +56,17 @@ p {
   color: #fff;
 }
 
+.footer ul {
+    display: table;
+    margin: 0 auto;
+}
+
 @media only screen and (max-width: 768px) {
   body {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .footer {
-    height: 200px;
+    height: 100px;
   }
 }
 
