@@ -7,10 +7,11 @@
     <title>Collaborate on Presentations with DeckHub</title>
 
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="../css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/landing.css" rel="stylesheet">
 
     <!--
     font-family: 'Noto Sans', sans-serif;
@@ -36,163 +37,59 @@
     <script src="https://use.fontawesome.com/dcf10996d9.js"></script>
 
   </head>
+
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <!--
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          -->
-          <a class="navbar-brand" href="#">
-            <img alt="DeckHub" src="img/DeckHub_Logo_WHT_400.png">
-          </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://twitter.com/deckhubco"><i class="fa fa-twitter fa-lg white"></i></a></li>
-            <li><a href="https://medium.com/@deckhubco"><i class="fa fa-medium fa-lg white"></i></a></li>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
           </ul>
-
-        </div><!--/.navbar-collapse -->
+        </nav>
+        <h3 class="text-muted">Project name</h3>
       </div>
-    </nav>
-    <!-- /Navbar -->
 
-    <div class="boom">
-      <div class="container">
-          <h1>deck notifications made simple</h1>
-          <p class="lead">A super simple slack integration to keep your team up to date on the latest version of your deck.</p>
-
-          <div class="row">
-            <div class="col-md-8">
-              <img src="img/Hero_V2.png" class="featurette-image img-responsive center-block" alt="Messy">
-            </div>
-            <a name="beta"></a>
-            <div class="col-md-4 beta">
-              <!-- MailChimp -->
-                    <form class="form" action="//deckhub.us13.list-manage.com/subscribe/post?u=1817c149301a55041048e7bf1&amp;id=8b5591fbdb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-                      <h2>join the beta</h2>
-                      <p class="lead">be the first to know</p>
-                      <div class="form-group">
-                        <label for="FNAME" class="sr-only">first name</label>
-                        <input type="text" name="FNAME" id="mce-FNAME" class="form-control input-lg" placeholder="First Name" required="true" autofocus>
-                      </div>
-                      <div class="form-group">
-                        <label for="EMAIL" class="sr-only">email address</label>
-                        <input type="email" name="EMAIL" id="mce-EMAIL" class="form-control input-lg" placeholder="Email Address" required="true">
-                      </div>
-                      <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
-                      <button class="btn btn-lg btn-primary btn-block" name="subscribe" id="mc-embedded-subscribe" type="submit" >tell me first</button>
-                    </form>
-              <!-- /MailChimp -->
-            </div>
-          </div>
+      <div class="jumbotron">
+        <h1>Jumbotron heading</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
       </div>
-    </div>
 
-<!-- /Container -->
-<div class="container">
-      <!-- Problems -->
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Collaborating on presentations feels like pulling teeth.</h2>
-          <p class="lead">Whether you’re a team of 2 or 200, working together on presentations suffers from major version creep. If you have files ending in “V2.3_JG”, you know what we mean.</p>
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
-        <div class="col-md-5">
-          <img src="img/Difficult_DH_512x512.png" class="featurette-image img-responsive center-block" alt="Difficult">
+
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
 
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Keeping content &#38; design consistent is a nightmare.</h2>
-          <p class="lead">It doesn’t matter what you use to build your presentation, As soon as someone else opens it up, it’s game over for keeping design and content consistent.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img src="img/Frustrating_DH_512x512.png" class="featurette-image img-responsive center-block" alt="Frustrating">
-        </div>
-      </div>
+    </div> <!-- /container -->
 
-      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Tools like PowerPoint &#38; Keynote just don’t cut it.</h2>
-          <p class="lead">Presentations often live in various locations like Slack, SalesForce, Google Drive, Box, Dropbox, iCloud, Sharepoint, etc. Existing tools lack critical integrations enabling great teamwork.</p>
-        </div>
-        <div class="col-md-5">
-          <img src="img/Inefficient_DH_512x512.png" class="featurette-image img-responsive center-block" alt="Inefficient">
-        </div>
-      </div>
-    </div>
-
-    <!-- /Problems -->
-
-    <!-- Solution -->
-    <div class="boom">
-      <div class="container marketing">
-
-        <h2>There's got to be a better way...</h2>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-responsive" src="img/integration.png" alt="Integrate">
-          <h3>Integrate</h3>
-          <p class="lead">Seamless and automatic integrations into existing workflows.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-responsive" src="img/design.png" alt="Design">
-          <h3>Design</h3>
-          <p class="lead">Browser interface allowing users to define and maintain styles.</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-responsive" src="img/versionControl.png" alt="Collaborate">
-          <h3>Collaborate</h3>
-          <p class="lead">Unique technology utilizing master slides and version control.</p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-    </div>
-    <!-- /Solution -->
-
-<!-- /Container -->
-</div>
-
-    <!-- Bottom Hero -->
-      <div class="container team">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Take the pain out of collaborating on presentations.</h2>
-          <p class="lead">Join the Beta and be the first to gain access.</p>
-          <a class="btn btn-lg btn-primary btn-block" href="#beta" role="button">tell me first</a>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img src="img/Deckhub_Collaboration_Yay.png" class="featurette-image img-responsive center-block" alt="Yay">
-        </div>
-      </div>
-    <!-- /Bottom Hero -->
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <p class="pull-right">Austin, TX 78702</p>
-        <p><i class="fa fa-copyright"></i> 2016 DeckHub, Inc.</p>
-        <p><a href="https://creativecommons.org/licenses/by/2.0/"><i class="fa fa-creative-commons"></i></a> Artwork by <a href="https://twitter.com/fakegrimlock">@FAKEGRIMLOCK</a></p>
-      </div>
-    </footer>
-    <!-- /Footer -->
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="../js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
