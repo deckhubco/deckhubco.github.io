@@ -1,5 +1,4 @@
-/* Sticky footer
--------------------------------------------------- */
+/* -------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
@@ -120,6 +119,37 @@ p {
   color: #55b9ed;
 }
 
+/* Landing Pages */
+.drop {
+  padding-top: 50px;
+}
+
+.pop {
+  padding-bottom: 20px;
+}
+
+.squeeze {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+.meet {
+  padding-top: 25px;
+}
+
+.meet img {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.blue {
+  color: #55b9ed;
+}
+
+.red {
+  color: #d0021b;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
